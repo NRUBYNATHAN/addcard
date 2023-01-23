@@ -1,0 +1,109 @@
+.nav{
+    list-style-type:none;
+    
+    overflow: hidden;
+    gap: 100px;
+}
+.cartbtn{
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar{
+    height:90px;
+    display: flex;
+    background-color: rgb(84, 88, 87);
+    padding: 10px;
+    
+}
+li {
+    display: flex;
+    display: inline-block;
+    color:rgb(11, 11, 11);
+    padding-top: 10px;
+    text-align: center;
+   color:white;
+    width: 100px;
+    height: 50px;
+
+}
+li:hover{
+    background-color:rgb(221, 126, 126);
+    
+}
+.center{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align:center;
+    font-weight:bolder;
+    color:rgb(252, 251, 251);
+    background-image: url("https://www.pixelproductionsinc.com/wp-content/uploads/2020/12/How-To-Set-Up-An-Online-Grocery-Business-1024x444.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height:200px ;
+    font-size: 30px;
+    
+}
+.footer{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 400px;
+    height: 100px;
+    background-color: black;
+}
+.img{
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.details{
+    text-align: center;
+    font-size: 25px;
+}
+.data{
+    margin-top: 10px;
+    width:400px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.btn{
+    margin-bottom: 5px;
+    font-size: 20px;
+    background-color: rgb(0, 195, 255);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+.total{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:10px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    gap:20px;
+}
+.dropdown {
+    
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    
+    position: absolute;
+    background-color: #403c3c;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+   
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+  
